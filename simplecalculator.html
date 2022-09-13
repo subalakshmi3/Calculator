@@ -1,0 +1,34 @@
+<link href="calculator.css" rel="stylesheet" />
+<html>
+    <head>
+         <title> Calculator </title>
+    </head>
+    <body>
+        <div class="calculator-outline">
+            <div class="button-style">
+                <input type="text" id="result" class="screen-style"/>
+                <input type="button" value ="AC" class="clear-button-style" onclick="clearInputs()"/>
+            </div>
+            <div class="keys-value" id="calculate">
+                <input type="button" value="7" class="calc-button" onclick="displayingInput('7')"/>
+                <input type="button" value="8" class="calc-button" onclick="displayingInput('8')"/>
+                <input type="button" value="9" class="calc-button" onclick="displayingInput('9')"/>
+                <input type="button" value="/" class="calc-button" onclick="displayingInput('/')"/>
+                <input type="button" value="4" class="calc-button" onclick="displayingInput('4')"/>
+                <input type="button" value="5" class="calc-button" onclick="displayingInput('5')"/>
+                <input type="button" value="6" class="calc-button" onclick="displayingInput('6')"/>
+                <input type="button" value="*" class="calc-button" onclick="displayingInput('*')"/>
+                <input type="button" value="1" class="calc-button" onclick="displayingInput('1')"/>
+                <input type="button" value="2" class="calc-button" onclick="displayingInput('2')"/>
+                <input type="button" value="3" class="calc-button" onclick="displayingInput('3')"/>
+                <input type="button" value="-" class="calc-button" onclick="displayingInput('-')"/>
+                <input type="button" value="0" class="calc-button" onclick="displayingInput('0')"/>
+                <input type="button" value="." class="calc-button" onclick="displayingInput('.')"/>
+                <input type="button" value="=" class="calc-button" onclick="finalOutput()"/>
+                <input type="button" value="+" class="calc-button" onclick="displayingInput('+')"/>
+            </div>
+        </div>
+        <script src="calculatorOperations.js"></script>
+    </body>
+</html>
+        
