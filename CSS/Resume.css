@@ -1,0 +1,36 @@
+.candidate-name {
+  font-size: 40px;
+  color: blue
+  }
+.resume-content {
+  font-size: 15px;
+  }
+.resume-title {
+  font-size: 20px;
+  color: black;
+  background-color: #CBC2C6;
+  }
+.resume-subtitle {
+  font-weight: arial;
+  font-size: 15px;
+  }
+.left-side {
+  width: 40%;
+  float: left;
+  }
+.right-side {
+  float: right;
+  width: 50%;
+  }
+.page-space {
+  padding-top: 20px;
+  }
+.font-color {
+  font-size: 15px;
+  color: skyblue;
+}
+
+  
+
+ 
+	 
